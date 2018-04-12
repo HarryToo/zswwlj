@@ -1,0 +1,158 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    position: static;
+}
+
+.headImg {
+    height: 5.5rem;
+    background: url("../images/product/banner.png") no-repeat center/cover;
+}
+
+.products {
+    padding-top: 0.7rem;
+}
+
+.products .item {
+    padding: 0.7rem 0;
+    margin-bottom: 0.02rem;
+    border-top: 0.01rem dashed #000;
+    border-bottom: 0.01rem dashed #000;
+    color: #666;
+    font-size: 0.16rem;
+}
+
+.products .item:first-of-type {
+    border-top: none;
+}
+
+.products .item .data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .item .cw_img {
+    width: 3.96rem;
+    height: 3.95rem;
+}
+
+.products .item .data .table {
+    width: 7.6rem;
+}
+
+.products .item .data .table img {
+    display: block;
+    width: 100%;
+    padding-bottom: 0.2rem;
+}
+
+.products .item .intro header {
+    font-size: 0.24rem;
+    padding: 0.24rem 0;
+}
+
+.products .item .intro header span {
+    padding-right: 0.4rem;
+}
+
+.products .item .intro p {
+    text-indent: 2em;
+    line-height: 0.24rem;
+}
+
+.products .guozi, .products .daozha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .daozha {
+    border-bottom: none;
+}
+
+.products .guozi > div, .products .daozha > div {
+    width: 7.6rem;
+}
+
+.products .guozi .table, .products .daozha .table {
+    width: 100%;
+    height: 1.63rem;
+}
+
+.advertising .ad_img {
+    height: 5.21rem;
+    background: url("../images/product/advertising.png") no-repeat center/cover;
+}
+
+.advertising ul {
+    padding: 0.76rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.advertising ul li {
+    width: 2.5rem;
+    height: 1.92rem;
+    color: #000;
+    font-size: 0.22rem;
+    text-align: center;
+    padding-top: 1.1rem;
+    background: url("../images/product/loop.png") no-repeat center/contain;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.advertising ul li .index {
+    color: #e6e6e6;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 1.92rem;
+    padding-top: 0.5rem;
+}
+
+.scope .swiper {
+    padding: 0.48rem 0 1rem;
+}
+
+.scope .swiper-slide {
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    transform: scale(0.86);
+    transition: 0.6s;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.scope .swiper-slide img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.scope .swiper-slide p {
+    width: 4rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+    color: #000;
+    font-size: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.scope .swiper-slide.swiper-slide-active {
+    transform: scale(1);
+}

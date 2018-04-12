@@ -1,0 +1,77 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    position: static;
+}
+
+.headImg {
+    height: 4rem;
+    background: url("../images/service/banner.png") no-repeat center/cover;
+}
+
+main > .container {
+    padding-bottom: 1.4rem;
+}
+
+main > .container > div {
+    padding-top: 0.8rem;
+}
+
+.cjwt ul li {
+    padding: 0.38rem 0 0.38rem 0.8rem;
+    border-bottom: 0.01rem dashed #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cjwt ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.cjwt ul li a {
+    display: block;
+    color: #737373;
+    font-size: 0.16rem;
+}
+
+.cjwt ul li a:hover {
+    color: #2589ff;
+}
+
+.lxwm .map {
+    height: 4.2rem;
+    padding: 0.74rem 0;
+}
+
+.lxwm ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lxwm ul li {
+    width: 25%;
+    text-align: center;
+    color: #333;
+    font-size: 0.16rem;
+}
+
+.lxwm ul li img {
+    width: 1.41rem;
+}
+
+.lxwm ul li p {
+    padding-top: 0.24rem;
+}
+
+.lxwm ul li .info {
+    display: inline-block;
+    width: 14em;
+    padding-top: 0.16rem;
+    line-height: 0.24rem;
+    color: #666;
+    font-size: 0.14rem;
+}

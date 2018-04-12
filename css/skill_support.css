@@ -1,0 +1,50 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    position: static;
+}
+
+.headImg {
+    height: 4rem;
+    background: url("../images/skill/banner.png") no-repeat center/cover;
+}
+
+main .container {
+    padding: 0.7rem 0;
+    color: #000;
+}
+
+.video_list li {
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video_list li video {
+    background-color: #000;
+    width: 46%;
+    height: auto;
+    border-radius: 0.08rem;
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.video_list li .info {
+    width: 46%;
+}
+
+.video_list li .info .title {
+    padding-bottom: 0.3rem;
+    color: #333;
+    font-size: 0.3rem;
+}
+
+.video_list li .info .intro {
+    line-height: 0.24rem;
+}
+
+.video_list li .info .intro p {
+    text-indent: 2em;
+}

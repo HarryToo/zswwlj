@@ -1,0 +1,109 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    position: static;
+}
+
+.headImg {
+    height: 3.4rem;
+    background: url("../images/cooperate/banner.png") no-repeat center/cover;
+}
+
+main .container {
+    padding-top: 0.7rem;
+    color: #666;
+    font-size: 0.16rem;
+}
+
+/*文章*/
+main article header {
+    font-size: 0.18rem;
+}
+
+main article header p {
+    padding-bottom: 0.34rem;
+}
+
+main article header .name {
+    font-size: 0.3rem;
+}
+
+article .cont {
+    padding: 0.4rem 0;
+    border-top: 0.01rem dashed #ccc;
+    border-bottom: 0.01rem dashed #ccc;
+}
+
+article .cont img {
+    float: right;
+    width: 5.05rem;
+    margin-left: 0.84rem;
+}
+
+article .cont p {
+    line-height: 0.24rem;
+    padding-bottom: 1em;
+    text-indent: 2em;
+}
+
+article .cont p:last-child {
+    padding-bottom: 0;
+}
+
+article .paging {
+    padding: 0.34rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article .paging a {
+    font-size: 0.18rem;
+}
+
+article .paging a:hover {
+    color: #076ce0;
+}
+
+/*图片展示*/
+.scope ul {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.scope ul li {
+    width: 22%;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #333;
+    font-size: 0.24rem;
+}
+
+.scope ul li .pic {
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.scope ul li:hover .pic {
+    box-shadow: 0.02rem 0.02rem 0.1rem rgba(0, 0, 0, 0.4);
+}
+
+.scope ul li .pic img {
+    display: block;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.scope ul li:hover .pic img {
+    transform: scale(1.1);
+}
+
+.scope ul li p {
+    padding-top: 0.5rem;
+}

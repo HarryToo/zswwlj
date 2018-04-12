@@ -1,0 +1,69 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    position: static;
+}
+
+.headImg {
+    height: 4rem;
+    background: url("../images/about/banner.png") no-repeat center/100% 100%;
+}
+
+main .container {
+    padding-top: 0.7rem;
+    color: #333;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+}
+
+/*文章*/
+main article header {
+    font-size: 0.18rem;
+}
+
+main article header p {
+    padding-bottom: 0.34rem;
+}
+
+main article header .name {
+    font-size: 0.3rem;
+}
+
+article .cont {
+    padding: 0.4rem 0;
+    border-top: 0.01rem dashed #ccc;
+    border-bottom: 0.01rem dashed #ccc;
+}
+
+article .cont img {
+    float: right;
+    width: 5.05rem;
+    margin-left: 0.84rem;
+}
+
+article .cont p {
+    line-height: 0.24rem;
+    padding-bottom: 1em;
+    text-indent: 2em;
+}
+
+article .cont p:last-child {
+    padding-bottom: 0;
+}
+
+article .paging {
+    padding: 0.34rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article .paging a {
+    font-size: 0.18rem;
+}
+
+article .paging a:hover {
+    color: #076ce0;
+}

@@ -1,0 +1,293 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    position: static;
+}
+
+.headImg {
+    height: 3.4rem;
+    background: url("../images/cooperate/banner.png") no-repeat center/cover;
+}
+
+main .container {
+    padding: 0.7rem 0;
+}
+
+.brief {
+    width: 85%;
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: 0.3rem;
+    line-height: 0.44rem;
+}
+
+.pub_hd {
+    margin: 70px 0 50px;
+}
+
+/*项目展示*/
+.projects .item {
+    height: 4rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects .item img {
+    width: 48.5%;
+    height: 100%;
+}
+
+.projects .item .info {
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects .item .info p {
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+}
+
+.projects .item .info .digest {
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+}
+
+.projects .item .info .more {
+    width: 100%;
+    color: #076ce0;
+    font-size: 0.16rem;
+    text-align: right;
+}
+
+.projects .item .info .more span {
+    padding-left: 0.2rem;
+}
+
+.projects .item .info .more:hover {
+    text-decoration: underline;
+}
+
+/*合作方式*/
+.way {
+    color: #666;
+}
+
+.tab {
+    font-size: 0.3rem;
+}
+
+.tab li {
+    float: left;
+    width: 50%;
+    padding-bottom: 0.26rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.tab li:hover:after, .tab li.active:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1.1rem;
+    height: 0.03rem;
+    margin-left: -0.55rem;
+    background-color: #076ce0;
+}
+
+.tab_item {
+    display: none;
+}
+
+.tab_item .explain {
+    padding: 0.5rem 0 0.9rem;
+    color: #000;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    font-weight: lighter;
+}
+
+.tab_item .explain p {
+    text-indent: 2em;
+    padding-bottom: 0.24rem;
+}
+
+.tab_item .explain p:last-child {
+    padding-bottom: 0;
+}
+
+.tab_item .explain .item {
+    padding-bottom: 0.24rem;
+}
+
+.tab_item .explain .item:last-child {
+    padding-bottom: 0;
+}
+
+.tab_item .explain .item > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tab_item .explain .item .title {
+    width: 1.5rem;
+    color: #076ce0;
+}
+
+.tab_item .explain .item .title span {
+    color: #000;
+}
+
+.tab_item .explain .item .cont {
+    width: 10.24rem;
+}
+
+.tab_item .explain .item .cont p {
+    text-indent: 0;
+    padding-bottom: 0;
+}
+
+/*表单*/
+.tab_item form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tab_item form .group {
+    width: 49%;
+    margin-bottom: 0.4rem;
+    padding: 0 0.1rem;
+    border: 0.01rem solid #999;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    font-size: 0.16rem;
+    display: flex;
+    align-items: center;
+}
+
+.tab_item form .group.row {
+    width: 100%;
+}
+
+.tab_item form .group span {
+    width: 16%;
+    color: #333;
+}
+
+.tab_item form .group input {
+    width: 84%;
+    height: 100%;
+    padding-left: 0.1rem;
+    border: none;
+    color: #666;
+    font-size: 0.16rem;
+    text-align: right;
+}
+
+.upload {
+    width: 100%;
+    height: 5.26rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload .item {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload .item .title {
+    color: #000;
+    font-size: 0.22rem;
+}
+
+.upload .item .preview {
+    width: 5rem;
+    height: 3.6rem;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload .item img {
+    max-width: 5rem;
+    max-height: 3.6rem;
+}
+
+.upload .item .up_btn {
+    width: 100%;
+    display: flex;
+}
+
+.upload .item .up_btn input[type="text"] {
+    width: 84%;
+    padding: 0 0.1rem;
+    border: 1px solid #d9d9d9;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    color: #666;
+    font-size: 0.16rem;
+}
+
+.upload .item .up_btn .btn {
+    width: 16%;
+    border: 0.01rem solid #d9d9d9;
+    height: 0.64rem;
+    background: url("../images/cooperate/upload.png") no-repeat center/48px;
+}
+
+.upload .item .up_btn .btn input[type="file"] {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tab_item form > button {
+    width: 5.9rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    margin: 1.1rem auto 0;
+    border: 0.01rem solid #999;
+    font-size: 0.16rem;
+    background-color: #fff;
+}
+
+.tab_item form .group.textarea {
+    min-height: 4.7rem;
+    display: block;
+}
+
+.tab_item form .group.textarea span {
+    display: block;
+    width: 10%;
+}
+
+.tab_item form .group.textarea textarea {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.8rem;
+    display: block;
+    resize: none;
+    color: #666;
+    font-size: 0.16rem;
+    font-family: inherit;
+}
